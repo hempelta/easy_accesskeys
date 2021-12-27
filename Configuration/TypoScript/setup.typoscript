@@ -1,0 +1,46 @@
+tt_content {
+  easy_accesskeys_list =< lib.contentElement
+  easy_accesskeys_list {
+
+    templateRootPaths.0 = EXT:easy_accesskeys/Resources/Private/Templates
+    partialRootPaths.0 = EXT:easy_accesskeys/Resources/Private/Partials
+    layoutRootPaths.0 = EXT:easy_accesskeys/Resources/Private/Layouts
+
+    templateName = AccesskeysList
+
+    dataProcessing {
+      # Accesskey Menu
+      10 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+      10 {
+        as = accesskeysMenu
+        table = pages
+        pidInList = root,-1
+        recursive = 99
+        where = tx_accesskey_page !=''
+        orderBy = tx_accesskey_page
+      }
+    }
+  }
+
+  easy_accesskeys_menuHidden =< lib.contentElement
+  easy_accesskeys_menuHidden {
+    templateRootPaths.0 = EXT:easy_accesskeys/Resources/Private/Templates
+    partialRootPaths.0 = EXT:easy_accesskeys/Resources/Private/Partials
+    layoutRootPaths.0 = EXT:easy_accesskeys/Resources/Private/Layouts
+
+    templateName = AccesskeysMenuHidden
+
+    dataProcessing {
+      # Accesskey Menu
+      10 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+      10 {
+        as = accesskeysMenu
+        table = pages
+        pidInList = root,-1
+        recursive = 99
+        where = tx_accesskey_page !=''
+        orderBy = tx_accesskey_page
+      }
+    }
+  }
+}

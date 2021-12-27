@@ -1,0 +1,19 @@
+mod.wizards.newContentElement.wizardItems.common {
+  elements {
+    easy_accesskeys_list {
+      title = LLL:EXT:easy_accesskeys/Resources/Private/Language/locallang.xlf:accesskeyList
+      description = LLL:EXT:easy_accesskeys/Resources/Private/Language/locallang.xlf:accesskeyListDescription
+      tt_content_defValues.CType = easy_accesskeys_list
+      iconIdentifier = easy_accesskeys_keyboard
+    }
+
+    easy_accesskeys_menuHidden {
+      title = LLL:EXT:easy_accesskeys/Resources/Private/Language/locallang.xlf:accesskeyMenuHidden
+      description = LLL:EXT:easy_accesskeys/Resources/Private/Language/locallang.xlf:accesskeyMenuHiddenDescription
+      tt_content_defValues.CType = easy_accesskeys_menuHidden
+      iconIdentifier = easy_accesskeys_keyboard_gray
+    }
+  }
+
+  show := addToList(easy_accesskeys_list, easy_accesskeys_menuHidden)
+}

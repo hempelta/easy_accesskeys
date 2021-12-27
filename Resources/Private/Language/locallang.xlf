@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:easy_accesskeys/Resources/Private/Language/locallang.xlf" date="2021-01-17T18:40:21Z" product-name="easy_accesskeys">
+		<header/>
+		<body>
+			<trans-unit id="accessibility" resname="accessibility">
+				<source>Accessibility</source>
+			</trans-unit>
+			<trans-unit id="easyAccesskeys" resname="easyAccesskeys">
+				<source>Easy Accesskeys</source>
+			</trans-unit>
+			<trans-unit id="accesskeyList" resname="accesskeyList">
+				<source>Accesskeys List</source>
+			</trans-unit>
+			<trans-unit id="accesskeyListDescription" resname="accesskeyListDescription">
+				<source>Alphabetical listing of all used accesskeys from this website.</source>
+			</trans-unit>
+			<trans-unit id="accesskeyMenuHidden" resname="accesskeyMenuHidden">
+				<source>Accesskeys Menu Hidden</source>
+			</trans-unit>
+			<trans-unit id="accesskeyMenuHiddenDescription" resname="accesskeyMenuHiddenDescription">
+				<source>Hidden menu with all accesskeys used on this website.</source>
+			</trans-unit>
+			<trans-unit id="accesskeyForThisPage" resname="accesskeyForThisPage">
+				<source>Accesskey for this page (a-z)</source>
+			</trans-unit>
+			<trans-unit id="accesskeyHomePage" resname="accesskeyHomePage">
+				<source>Accesskey for homepage</source>
+			</trans-unit>
+			<trans-unit id="accesskeyMainNavigation" resname="accesskeyMainNavigation">
+				<source>Accesskey for main navigation</source>
+			</trans-unit>
+			<trans-unit id="accesskeyTableOfContents" resname="accesskeyTableOfContents">
+				<source>Accesskey for table of contents</source>
+			</trans-unit>
+			<trans-unit id="accesskeyToTopOfPage" resname="accesskeyToTopOfPage">
+				<source>Accesskey for top top of page</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,30 @@
+{namespace nm=Fizsoft\FizAccesskeys\ViewHelpers}
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+<f:spaceless>
+
+    <f:section name="MenuHidden">
+
+        <f:asset.css identifier="accesskeysMenuHidden"
+                     href="EXT:easy_accesskeys/Resources/Public/Css/accesskeysMenuHidden.css"/>
+        
+        <div class="__accesskeysMenuHidden">
+            <h2>{f:translate(key:
+                'LLL:EXT:easy_accesskeys/Resources/Private/Language/locallang.xlf:accesskeyMenuHidden')}</h2>
+            <dl>
+                <f:for each="{accesskeysMenu}" as="item">
+                    <dt>{item.data.tx_accesskey_page}</dt>
+                    <dl>
+                        <f:link.typolink parameter="{item.data.uid}"
+                                         additionalAttributes="{'accesskey': item.data.tx_accesskey_page}">
+                            {item.data.title}
+                        </f:link.typolink>
+                    </dl>
+                </f:for>
+            </dl>
+        </div>
+    </f:section>
+
+</f:spaceless>
+</html>
