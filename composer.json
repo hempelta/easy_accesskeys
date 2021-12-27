@@ -2,6 +2,9 @@
     "name": "fizsoft/easy_accesskeys",
     "type": "typo3-cms-extension",
     "description": "Easy Accesskeys",
+	"homepage": "https://www.fiz-soft.de",
+	"license": "GPL-2.0-or-later",
+	"keywords": ["TYPO3", "Accesskeys", "Extensions"],
     "authors": [
         {
             "name": "Axel Hempelt",

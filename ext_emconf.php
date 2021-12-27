@@ -2,9 +2,10 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Easy Accesskeys',
     'description' => 'Easy Accesskeys',
-    'category' => 'plugin',
+    'category' => 'misc',
     'author' => 'Axel Hempelt',
     'author_email' => 'a.hempelt@fiz-soft.de',
+    'author_company' => 'FIZ soft',
     'state' => 'beta',
     'uploadfolder' => 0,
     'createDirs' => '',
@@ -16,5 +17,10 @@ $EM_CONF[$_EXTKEY] = [
         ],
         'conflicts' => [],
         'suggests' => [],
+    ],
+    'autoload' => [
+        'psr-4' => [
+            'Fizsoft\\FizAccesskeys\\' => 'Classes/',
+        ]
     ],
 ];
