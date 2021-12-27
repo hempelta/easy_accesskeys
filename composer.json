@@ -1,37 +1,47 @@
 {
-    "name": "fizsoft/easy_accesskeys",
-    "type": "typo3-cms-extension",
-    "description": "Easy Accesskeys",
+	"name": "fizsoft/easy_accesskeys",
+	"type": "typo3-cms-extension",
+	"description": "Easy Accesskeys",
 	"homepage": "https://www.fiz-soft.de",
-	"license": "GPL-2.0-or-later",
-	"keywords": ["TYPO3", "Accesskeys", "Extensions"],
-    "authors": [
-        {
-            "name": "Axel Hempelt",
-            "role": "Developer"
-        }
-    ],
-    "version": "0.1.2",
-    "require": {
-        "typo3/cms-core": "^10.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "Fizsoft\\FizAccesskeys\\": "Classes"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Fizsoft\\FizAccesskeys\\Tests\\": "Tests"
-        }
-    },
-	"replace": {
-		"fizsoft/easyaccesskeys": "self.version",
-		"typo3-ter/easyaccesskeys": "self.version"
+	"license": "GPL-3.0-or-later",
+	"keywords": [
+		"TYPO3",
+		"Accesskeys",
+		"Extensions"
+	],
+	"authors": [
+		{
+			"name": "Axel Hempelt",
+			"role": "Developer"
+		}
+	],
+	"version": "0.1.2",
+	"require": {
+		"php": ">=7.3.0",
+		"typo3/cms-core": "^10.4"
 	},
-    "extra": {
-        "typo3/cms": {
-            "extension-key": "easy_accesskeys"
-        }
-    }
+	"autoload": {
+		"psr-4": {
+			"Fizsoft\\FizAccesskeys\\": "Classes"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Fizsoft\\FizAccesskeys\\Tests\\": "Tests"
+		}
+	},
+	"replace": {
+		"fizsoft/easyaccesskeys": "self.version"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "easy_accesskeys"
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.typo3.org/"
+		}
+	]
 }

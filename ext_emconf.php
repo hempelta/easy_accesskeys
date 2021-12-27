@@ -2,7 +2,7 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Easy Accesskeys',
     'description' => 'Easy Accesskeys',
-    'category' => 'misc',
+    'category' => 'frontend',
     'author' => 'Axel Hempelt',
     'author_email' => 'a.hempelt@fiz-soft.de',
     'author_company' => 'FIZ soft',
@@ -14,6 +14,7 @@ $EM_CONF[$_EXTKEY] = [
     'constraints' => [
         'depends' => [
             'typo3' => '10.4.0-10.4.99',
+            'php' => '7.1.0-7.4.99'
         ],
         'conflicts' => [],
         'suggests' => [],
