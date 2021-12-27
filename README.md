@@ -1,9 +1,9 @@
 # TYPO3 Extension `Easy Accesskeys`
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?style=for-the-badge)](https://paypal.me/axelhempelt)
-[![Latest Stable Version](https://img.shields.io/packagist/v/fizsoft/easy_accesskeys?style=for-the-badge)](https://packagist.org/packages/fizsoft/easy_accesskeys)
-[![TYPO3](https://img.shields.io/badge/TYPO3-easy_accesskeys-%23f49700?style=for-the-badge)](https://extensions.typo3.org/extension/easy_accesskeys/)
-[![License](https://img.shields.io/packagist/l/fizsoft/easy_accesskeys?style=for-the-badge)](https://packagist.org/packages/fizsoft/easy_accesskeys)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?style=flat)](https://paypal.me/axelhempelt)
+[![Latest Stable Version](https://img.shields.io/packagist/v/fizsoft/easy_accesskeys?style=flat)](https://packagist.org/packages/fizsoft/easy_accesskeys)
+[![TYPO3](https://img.shields.io/badge/TYPO3-easy_accesskeys-%23f49700?style=flat)](https://extensions.typo3.org/extension/easy_accesskeys/)
+[![License](https://img.shields.io/packagist/l/fizsoft/easy_accesskeys?style=flat)](https://packagist.org/packages/fizsoft/easy_accesskeys)
 
 > This extension enables keyboard operation of individual web pages. For a page only one alphanumeric character has to be stored in the TCA. The extension offers two content elements, an overview of all access keys stored on the website and a hidden menu for the listing of the same access keys.
 
