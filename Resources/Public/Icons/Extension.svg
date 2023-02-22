@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1300 580" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.24,0,0,0.24,0,0)">
+        <g id="Hintergrund" transform="matrix(0.553846,0,0,1,1078.21,0)">
+            <g transform="matrix(4.46898,0,0,1.09141,-2203.5,-87.883)">
+                <rect x="57.45" y="80.523" width="2188.44" height="2214.27" style="fill:rgb(0,35,74);"/>
+            </g>
+            <g transform="matrix(0.993056,0,0,0.982759,2416.67,20.8333)">
+                <rect x="-0" y="0" width="5416.67" height="2416.67" style="fill:white;"/>
+            </g>
+            <g transform="matrix(8.78622,0,0,13.4312,-12563.4,-28136.5)">
+                <rect x="1208.33" y="2094.87" width="496.622" height="179.93" style="fill:white;"/>
+            </g>
+            <g transform="matrix(22.3871,0,0,14.1846,-31192,-27120)">
+                <rect x="1308.02" y="1913.4" width="193.228" height="167.435" style="fill:rgb(0,35,74);"/>
+            </g>
+        </g>
+        <g id="Ebene1">
+            <g id="soft">
+                <g transform="matrix(1,0,0,1,-509.956,783.838)">
+                    <text x="5227.3px" y="913.281px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1333.33px;fill:rgb(0,35,74);">t</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-447.271,1321.66)">
+                    <text x="4725.98px" y="374.898px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1333.33px;fill:rgb(0,35,74);">f</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-426.996,1561.89)">
+                    <text x="3894.1px" y="135.037px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1333.33px;fill:rgb(0,35,74);">o</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-324.527,1327.7)">
+                    <text x="3054.4px" y="370.231px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1333.33px;fill:rgb(0,35,74);">s</text>
+                </g>
+            </g>
+            <g id="FIZ">
+                <g transform="matrix(1,0,0,1,-221,-109)">
+                    <text x="1623.47px" y="1804.02px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1333.33px;fill:white;">Z</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-1203.2,1280.36)">
+                    <text x="2220.03px" y="415.588px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1333.33px;fill:white;">I</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-878.313,1351.81)">
+                    <text x="1061.7px" y="344.13px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:1333.33px;fill:white;">F</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
